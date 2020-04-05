@@ -27,8 +27,6 @@ private:
 };
 
 
-#include "thread_pool.h"
-
 template<class T>
 thread_pool<T>::thread_pool(int nums)
 	: is_stop(false), thread_nums(nums)
